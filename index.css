@@ -1,0 +1,182 @@
+body{
+    background-image: linear-gradient(to right, cyan, lightblue);
+    overflow: hidden;
+}
+.container{
+   
+    height:400px;
+    width: 400px;
+    background-color: burlywood;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 30px black;
+
+}
+.clock{
+    height: 380px;
+    width: 380px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 15px black;
+}
+.tweleve{
+    font-size: 3rem;
+    position: absolute;
+    left:165px;
+    top:-4px;
+}
+.six{
+    font-size: 3rem;
+    position: absolute;
+    left:180px;
+    top:330px;
+}
+.three{
+    font-size: 3rem;
+    position: absolute;
+    left:350px;
+    top:155px;
+}
+.nine{
+    font-size: 3rem;
+    position: absolute;
+    left:5px;
+    top:155px;
+}
+
+.one{
+    font-size: 3rem;
+    position: absolute;
+    left:260px;
+    top:12px;
+}
+.two{
+    font-size: 3rem;
+    position: absolute;
+    left:325px;
+    top:70px;
+}
+.four{
+    font-size: 3rem;
+    position: absolute;
+    left:325px;
+    top:250px;
+}
+.five{
+    font-size: 3rem;
+    position: absolute;
+    left:270px;
+    top:310px;
+}
+.eleven{
+    font-size: 3rem;
+    position: absolute;
+    left:85px;
+    top:12px;
+
+}
+.ten{
+    font-size: 3rem;
+    position: absolute;
+    left:25px;
+    top:70px;
+}
+.seven{
+    font-size: 3rem;
+    position: absolute;
+    left:94px;
+    top:312px;
+
+}
+.eight{
+    font-size: 3rem;
+    position: absolute;
+    left:29px;
+    top:240px;
+}
+.center-1{
+    position: absolute;
+    height: 20px ;
+    width:20px;
+    border-radius: 50%;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: bottom center;
+    bottom: 50%;
+}
+.center-2{
+    position: absolute;
+    height: 60px ;
+    width:60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    position: absolute;
+    top:90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+}
+.strand1{
+  height:105px;
+  width:9px;
+  background-color: black;
+  position: absolute;
+  top: 22%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% 50% 0 0;
+  transform-origin: bottom center;
+  bottom: 50%;
+  transform: rotate(90deg);
+  
+}
+.strand2{
+  height:85px;
+  width:5px;
+  background-color: whitesmoke;
+  position: absolute;
+  top: 28%;
+  left: 49.5%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% 50% 0 0;
+  transform-origin: bottom center;
+  bottom: 50%;
+  transform: rotate(180deg);
+}
+.strand3{
+    height:185px;
+  width:2px;
+  background-color: red;
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50% 50% 0 0;
+   transform-origin: bottom center;
+  bottom: 50%;
+  transform: rotate(360deg);
+}
+.circle{
+    height:40px;
+    width:40px; 
+    border-radius: 50%;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
